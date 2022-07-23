@@ -1,0 +1,27 @@
+{
+    "name": "@handidev/react-native-typescript-boilerplate",
+    "version": "0.0.1",
+    "keywords": [
+        "react",
+        "native",
+        "react native typescript",
+        "typescript boilerplate",
+        "rn-boilerplate",
+        "handidev",
+        "react-native",
+        "starter-kit",
+        "react-native-redux-toolkit",
+        "react-native-navigation"
+    ],
+    "scripts": {
+        "release": "standard-version"
+    },
+    "description": "React Native Boilerplate Template",
+    "repository": "https://github.com/handi-dev/react-native-typescript-boilerplate",
+    "author": "Handi Priyono <contact@handi.dev>",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "standard-version": "^9.5.0"
+    }
+}
