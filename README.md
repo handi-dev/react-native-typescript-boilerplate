@@ -1,5 +1,5 @@
 # react-native-typescript-boilerplate-template 2022 
-[![npm](https://img.shields.io/npm/v/@handidev/react-native-boilerplate)](https://www.npmjs.com/package/@handidev/react-native-typescript-boilerplate)
+[![npm](https://img.shields.io/npm/v/@handidev/react-native-typescript-boilerplate)](https://www.npmjs.com/package/@handidev/react-native-typescript-boilerplate)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ## What is React Native Typescript Boilerplate
