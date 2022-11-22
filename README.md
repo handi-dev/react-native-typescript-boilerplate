@@ -6,29 +6,28 @@
 
 It is a template that you can clone and reuse for every project. It is starting point for React Native application.
 
-## React Native Typescript Boilerplate ( 0.69.1 )
+## React Native Typescript Boilerplate ( 0.70.6 )
 
 consist of:
 
-- react-native": "0.69.1"
-- "@react-native-masked-view/masked-view": "^0.2.7",
-- "@react-navigation/bottom-tabs": "^6.3.2",
-- "@react-navigation/material-top-tabs": "^6.2.2",
-- "@react-navigation/native": "^6.0.11",
-- "@react-navigation/native-stack": "^6.7.0",
-- "@react-navigation/stack": "^6.2.2",
-- "@reduxjs/toolkit": "^1.8.3",
-- "react": "18.0.0",
-- "react-native-gesture-handler": "^2.5.0",
-- "react-native-pager-view": "^5.4.25",
-- "react-native-safe-area-context": "^4.3.1",
-- "react-native-screens": "^3.15.0",
-- "react-native-tab-view": "^3.1.1",
+- "@react-native-masked-view/masked-view": "^0.2.8",
+- "@react-navigation/bottom-tabs": "^6.4.0",
+- "@react-navigation/material-top-tabs": "^6.3.0",
+- "@react-navigation/native": "^6.0.13",
+- "@react-navigation/native-stack": "^6.9.1",
+- "@reduxjs/toolkit": "^1.9.0",
+- "react": "18.1.0",
+- "react-native": "0.70.6",
+- "react-native-gesture-handler": "^2.8.0",
+- "react-native-pager-view": "^6.1.0",
+- "react-native-safe-area-context": "^4.4.1",
+- "react-native-screens": "^3.18.2",
+- "react-native-tab-view": "^3.3.0",
 - "react-native-vector-icons": "^9.2.0",
-- "react-redux": "^8.0.2"
+- "react-redux": "^8.0.5"
 ## Requirements
 
-Node 12 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
+Node 14 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
 
 You also need to install the dependencies required by React Native.  
 Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
@@ -67,6 +66,12 @@ Run this command `chmod 755 android/gradlew` from your root project directory
     sdk.dir=/Users/`USERNAME`/Library/Android/sdk
 
 - Replace `USERNAME` with your PC username
+
+
+#### Error Your Ruby version is 2.6.10, but your Gemfile specified 2.7.5
+- install `rbenv`
+- run `rbenv local 2.7.5`
+- `export PATH="$HOME/.rbenv/bin:$PATH"`
 
 ### React Native Build Failed on M1 Macbook Pro / Air
 

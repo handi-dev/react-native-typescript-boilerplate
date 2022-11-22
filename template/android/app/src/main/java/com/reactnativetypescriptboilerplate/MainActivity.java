@@ -16,7 +16,6 @@ public class MainActivity extends ReactActivity {
     return "reactNativeTypescriptBoilerplate";
   }
 
-    // for react-native-screens
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(null);

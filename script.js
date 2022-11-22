@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log("Welcome to handi.dev boilerplate");
+console.log("Welcome to handi.dev react native TypeScript boilerplate");

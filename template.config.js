@@ -3,7 +3,7 @@ module.exports = {
   // package.json, index.json, android/, ios/
   placeholderName: "reactNativeBoilerplate",
 
-  titlePlaceholder: 'Handi.dev react native boilerplate',
+  titlePlaceholder: 'Handi.dev react native typescript boilerplate',
 
   // Directory with template
   templateDir: "./template",
