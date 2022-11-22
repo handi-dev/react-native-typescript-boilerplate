@@ -72,6 +72,25 @@ Run this command `chmod 755 android/gradlew` from your root project directory
 - install `rbenv`
 - run `rbenv local 2.7.5`
 - `export PATH="$HOME/.rbenv/bin:$PATH"`
+`export PATH="$HOME/.rbenv/shims:$PATH"`
+
+--------------
+##### `Error /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:283:in find_spec_for_exe: Could not find 'bundler' (2.1.4) required by your /Users/username/DEVELOPER/MyAppName/Gemfile.lock. (Gem::GemNotFoundException)`
+`To update to the latest version installed on your system, run bundle update --bundler.
+To install the missing version, run `gem install bundler:2.1.4`
+from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:302:in activate_bin_path
+from /usr/bin/bundle:23:in <main>`
+
+✖ Installing Bundler
+`error Error: Looks like your iOS environment is not properly set. Please go to https://reactnative.dev/docs/next/environment-setup and follow the React Native CLI QuickStart guide for macOS and iOS.`
+
+### Solution:
+follow step below:
+1. `brew install rbenv`
+2. `rbenv install 2.7.5`
+3. `rbenv local 2.7.5  `
+4. `export PATH="$HOME/.rbenv/shims:$PATH"`
+----------
 
 ### React Native Build Failed on M1 Macbook Pro / Air
 
