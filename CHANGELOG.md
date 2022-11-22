@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/handi-dev/react-native-typescript-boilerplate/compare/v0.0.4...v0.1.1) (2022-11-22)
+
+
+### Bug Fixes
+
+* adjust code for installation ([e7784c9](https://github.com/handi-dev/react-native-typescript-boilerplate/commit/e7784c9b7f314bb361bcab00a6cf28b9ae468c46))
+* adjust description ([1faca58](https://github.com/handi-dev/react-native-typescript-boilerplate/commit/1faca58a649e7902082a445bb7b7669372828105))
+
 ### [0.0.4](https://github.com/handi-dev/react-native-typescript-boilerplate/compare/v0.0.3...v0.0.4) (2022-07-23)
 
 ### [0.0.3](https://github.com/handi-dev/react-native-typescript-boilerplate/compare/v0.0.2...v0.0.3) (2022-07-23)
