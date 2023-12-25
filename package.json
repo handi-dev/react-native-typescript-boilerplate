@@ -1,6 +1,6 @@
 {
     "name": "@handidev/react-native-typescript-boilerplate",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "keywords": [
         "react",
         "native",
@@ -11,7 +11,8 @@
         "react-native",
         "starter-kit",
         "react-native-redux-toolkit",
-        "react-native-navigation"
+        "react-native-navigation",
+        "react-navigation"
     ],
     "scripts": {
         "release": "standard-version"

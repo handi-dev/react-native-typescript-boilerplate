@@ -17,7 +17,7 @@ const Home = ({ navigation }: any) => {
       <SafeAreaView style={styles.SafeAreaView1} />
       <SafeAreaView style={styles.SafeAreaView2}>
         <View style={styles.outerWrapper}>
-          <Icon name={'ios-settings'} size={100} color={'green'} />
+          <Icon name={'finger-print-sharp'} size={100} color={'green'} />
           <View>
             <TouchableOpacity
               onPress={() => Alert.alert('this is Profile Screen')}

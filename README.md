@@ -1,33 +1,32 @@
-# react-native-typescript-boilerplate-template 2022 
+# react-native-typescript-boilerplate-template 2024
 [![npm](https://img.shields.io/npm/v/@handidev/react-native-typescript-boilerplate)](https://www.npmjs.com/package/@handidev/react-native-typescript-boilerplate)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-## What is React Native Typescript Boilerplate
+## What is React Native Typescript Boilerplate 2024 - 0.73.1
 
 It is a template that you can clone and reuse for every project. It is starting point for React Native application.
 
-## React Native Typescript Boilerplate ( 0.70.6 )
+## React Native Typescript Boilerplate ( 0.73.1 )
 
 consist of:
+  - "react-native": "0.73.1",
+  - "@react-native-masked-view/masked-view": "^0.3.1",
+  - "@react-navigation/bottom-tabs": "^6.5.11",
+  - "@react-navigation/material-top-tabs": "^6.6.5",
+  - "@react-navigation/native": "^6.1.9",
+  - "@react-navigation/native-stack": "^6.9.17",
+  - "@react-navigation/stack": "^6.3.20",
+  - "react": "18.2.0",
+  - "react-native-gesture-handler": "^2.14.0",
+  - "react-native-pager-view": "^6.2.3",
+  - "react-native-safe-area-context": "^4.8.2",
+  - "react-native-screens": "^3.29.0",
+  - "react-native-tab-view": "^3.5.2",
+  - "react-native-vector-icons": "^10.0.3"
 
-- "@react-native-masked-view/masked-view": "^0.2.8",
-- "@react-navigation/bottom-tabs": "^6.4.0",
-- "@react-navigation/material-top-tabs": "^6.3.0",
-- "@react-navigation/native": "^6.0.13",
-- "@react-navigation/native-stack": "^6.9.1",
-- "@reduxjs/toolkit": "^1.9.0",
-- "react": "18.1.0",
-- "react-native": "0.70.6",
-- "react-native-gesture-handler": "^2.8.0",
-- "react-native-pager-view": "^6.1.0",
-- "react-native-safe-area-context": "^4.4.1",
-- "react-native-screens": "^3.18.2",
-- "react-native-tab-view": "^3.3.0",
-- "react-native-vector-icons": "^9.2.0",
-- "react-redux": "^8.0.5"
 ## Requirements
 
-Node 14 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
+Node 18 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
 
 You also need to install the dependencies required by React Native.  
 Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  

@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home/Home.screen';
 import Profile from '../screens/Profile/Profile.screen';
 import Icon from 'react-native-vector-icons/Ionicons';
+import AntDesignIcon from 'react-native-vector-icons/AntDesign';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -18,7 +19,7 @@ function MyTabs() {
         options={{
           headerShown: false,
           tabBarIcon: ({ color }: any) => {
-            return <Icon name={'ios-home'} size={25} color={color} />;
+            return <Icon name={'home-outline'} size={25} color={color} />;
           },
         }}
       />
@@ -28,7 +29,7 @@ function MyTabs() {
         options={{
           headerShown: false,
           tabBarIcon: ({ color }: any) => {
-            return <Icon name={'ios-settings'} size={25} color={color} />;
+            return <Icon name={'finger-print-sharp'} size={25} color={color} />;
           },
         }}
       />

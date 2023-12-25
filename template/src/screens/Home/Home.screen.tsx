@@ -8,14 +8,15 @@ import {
   StyleSheet,
 } from 'react-native';
 import styles from './Home.style';
-import Icon from 'react-native-vector-icons/Ionicons';
-import { fetchUser, selectAll } from '../../stores/user.reducer';
-import { useAppDispatch, useAppSelector } from '../../hooks/redux';
+import IconMaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+const users = [
+  { id: 1, name: 'John Doe' },
+  { id: 2, name: 'Jane Doe' },
+  { id: 3, name: 'Jordan Doe' },
+];
 
 const Home = ({ navigation }: any) => {
-  const dispatch = useAppDispatch();
-  const users = useAppSelector(selectAll);
-
   function ListUser() {
     return (
       <>
@@ -38,14 +39,22 @@ const Home = ({ navigation }: any) => {
       <SafeAreaView style={styles.SafeAreaView1} />
       <SafeAreaView style={styles.SafeAreaView2}>
         <View style={styles.outerWrapper}>
-          <Icon name={'ios-person'} size={100} color={'purple'} />
-          <Icon name={'ios-home'} size={100} color={'purple'} />
+          <IconMaterialCommunityIcons
+            name={'lock-alert-outline'}
+            size={80}
+            color={'green'}
+          />
+          <IconMaterialCommunityIcons
+            name={'wifi-lock-open'}
+            size={50}
+            color={'grey'}
+          />
 
           <View>
             <TouchableOpacity
               style={styles.buttonStyle}
-              onPress={() => dispatch(fetchUser())}>
-              <Text style={styles.text}>Click here to show User data:</Text>
+              onPress={() => navigation?.navigate('Profile')}>
+              <Text style={styles.text}>Click here to go to profile Page:</Text>
             </TouchableOpacity>
             <ListUser />
           </View>
